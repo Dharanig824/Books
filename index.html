@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bookstore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#bookstore">Bookstore</a></li>
+      <li><a href="#wishlist">Readlist</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="section active">
+    <h1>📚 Welcome to My Bookstore</h1>
+    <p>Explore timeless classics and modern favorites in one place. Start building your personal readlist today!</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We are passionate about bringing books closer to readers. Our bookstore offers a wide range of classics and modern literature.</p>
+    <p>From <strong>fantasy and adventure</strong> to <strong>romance and philosophy</strong>, we’ve got books for every kind of reader.</p>
+  </section>
+
+  <!-- Bookstore Section -->
+  <section id="bookstore" class="section">
+    <h2>Our Bookstore Collection</h2>
+    <div id="book-list" class="book-grid"></div>
+  </section>
+
+  <!-- Wishlist Section -->
+  <section id="wishlist" class="section">
+    <h2>❤️ My Readlist</h2>
+    <div id="wishlist" class="book-grid"></div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
